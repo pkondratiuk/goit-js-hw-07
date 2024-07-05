@@ -16,8 +16,9 @@ body {
 .gallery{
   
   display: flex;
-  gap: 24px;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
   list-style: none;
-  width: 1128px;
+  
 }
